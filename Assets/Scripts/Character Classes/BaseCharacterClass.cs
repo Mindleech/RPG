@@ -3,13 +3,12 @@ using System.Collections;
 
 public class BaseCharacterClass : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    private string characterClassName;
+    private string characterClassDescription;
+    //Attributes
+    private int strength;
+    private int strength;
+    private int strength;
+    //Stats
+    
 }
