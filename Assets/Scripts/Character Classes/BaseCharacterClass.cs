@@ -6,9 +6,13 @@ public class BaseCharacterClass : MonoBehaviour {
     private string characterClassName;
     private string characterClassDescription;
     //Attributes
-    private int strength;
-    private int strength;
-    private int strength;
-    //Stats
-    
+    public int strength;
+    public int dexterity;
+    public int intelligence;
+
+    public string CharacterClassName { get; set; }
+    public string CharacterClassDescription { get; set; }
+    public int Strength { get; set; }
+    public int Dexterity { get; set; }
+    public int Intelligence { get; set; }
 }
